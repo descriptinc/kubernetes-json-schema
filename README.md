@@ -86,3 +86,10 @@ It's not Kubernetes specific and should work with other OpenAPI
 APIs too. This should be useful if you're using a pre-release or otherwise
 modified version of Kubernetes, or something like OpenShift which extends the
 standard APIs with additional types.
+
+Edit `build.sh` with the versions of Kubernetes you would like to regenerate, and then run:
+
+```
+./setup.sh
+./build.sh
+```

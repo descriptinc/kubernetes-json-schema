@@ -1,4 +1,5 @@
 pytest
+openapi2jsonschema
 jsonschema
 pytest-flake8
 flake8
