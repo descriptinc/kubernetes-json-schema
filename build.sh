@@ -10,16 +10,7 @@
 
 declare -a arr=(
     # Add here the version you want to re-generate
-    master
-    )
-
-# This list is used only list of already genrated schema definition
-# (or when we need to rebuild all definitions)
-declare -a arr2=(
-    # master
-    # v1.18.x
     v1.18.17
-    v1.18.1
 )
 
 for version in "${arr[@]}"
